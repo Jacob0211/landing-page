@@ -1,0 +1,96 @@
+/*General*/
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	margin: auto;
+	overflow: hidden;
+	width: 85%;
+}
+
+/*Header*/
+
+#cover {
+	background-image: url("../img/new-york1.jpg");
+	height: 800px;
+	background-position: center;
+
+}
+
+#slogan {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 270px;
+}
+
+#slogan h1 {
+	color: #fff;
+	font-size: 2.9em;
+	text-shadow: 4px 4px 4px black;
+}
+
+#btn {
+	font-family: sans-serif;
+	padding: 12px 10px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#btn:hover {
+	color: #000;
+	background-color: #fff;
+	transition: ease 2s;
+}
+
+section {
+	padding: 100px 0;
+}
+
+.container p {
+	margin: 25px 0;
+	text-align: justify;
+	font-weight: bold;
+}
+
+section h2 {
+	text-transform: uppercase;
+	text-shadow: 4px 4px 4px black;
+	margin: 30px 0;
+}
+
+#s1 h2, #s3 h2 {
+	text-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+}
+
+.pic {
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+
+#s1 {
+	/*background-color: #dfecef;*/
+}
+
+#s2 {
+	background-color: #34495a;
+	color: #fff;
+}
+
+
+
+footer {
+	text-align: center;
+	background-color: #0d1e30;
+	padding: 30px;
+	color: #fff;
+}
